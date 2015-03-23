@@ -10,3 +10,4 @@ puts 'Type in a word and I will show you stories related to that word.'
 reddit = Reddit.new
 
 reddit.fetch_stories
+# call the print_stories method here on the reddit object

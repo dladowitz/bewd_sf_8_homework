@@ -1,7 +1,7 @@
 class Story
+  # add attr_accessor for title, text and url here
 
-  attr_accessor :stories
-    def initialize(title, selftext, url)
-      @stories = []
-    end
+  def initialize(title, text, url)
+    # initialize title, text and url here
+  end
 end
